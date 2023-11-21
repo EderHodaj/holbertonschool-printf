@@ -47,4 +47,5 @@ int _printf(const char *format, ...)
 	}
 
 	return (-1);
+	va_end(args);
 }
