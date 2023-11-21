@@ -24,7 +24,7 @@ int print_char(va_list char_list)
 
 int print_string(va_list string_list)
 {
-	char *str;
+	char *str = va_arg(string_list, char *);
 	int i;
 	char *zero = "(null)";
 	int length = 0;
