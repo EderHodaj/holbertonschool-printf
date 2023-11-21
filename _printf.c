@@ -2,14 +2,11 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
-
 /**
  * _printf -entry point,prints input
  * @format: -point to respective input
  * Return: (count)
  */
-
-
 int _printf(const char *format, ...)
 {
 	va_list args;
@@ -37,22 +34,17 @@ int _printf(const char *format, ...)
 						continue;
 					}
 					else if (format[i + 1] == '%')
-					{
-						_putchar('%');
-						count++;
-						i = i + 2;
-						continue;	
-					}
+						i++;
 
 				}
 				_putchar(format[i]);
 				i++;
 				count++;
 			}
+			return (count);
 		}
-		return (count);
-	}
 
+	}
 	return (-1);
 	va_end(args);
 }
