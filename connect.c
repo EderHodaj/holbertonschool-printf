@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * get_function - sdfsdf
+ * @c:sdgsg
+ * @va_listvsds
+ * Return:sdfsdf
+ */
 int (*get_function(char c))(va_list)
 {
 	int i = 0;
