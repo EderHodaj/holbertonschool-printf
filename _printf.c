@@ -26,12 +26,6 @@ int _printf(const char *format, ...)
 			{
 				if (format[i] == '%')
 				{
-					if (format[i + 1] == 's' && va_arg(args, char *) == NULL)
-					{
-							printf("(null)");
-							i = i + 2; 
-							continue;
-					}
 					func = get_function(format[i + 1]);
 					if (func)
 					{
