@@ -16,5 +16,6 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list char_list);
 int print_string(va_list string_list);
+int (*get_function(char c))(va_list);
 
 #endif

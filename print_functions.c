@@ -10,7 +10,7 @@
 int print_char(va_list char_list)
 {
 	char letter = va_arg(char_list, int);
-	putchar(letter);
+	_putchar(letter);
 
 	return (1);
 }
@@ -29,7 +29,7 @@ int print_string(va_list string_list)
 	str = va_arg(string_list, char*);
 
 	for (i=0; str[i] != '\0'; i++)
-	putchar(str[i]);
+	_putchar(str[i]);
 
 	return (i);
 }

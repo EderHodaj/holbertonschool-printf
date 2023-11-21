@@ -16,7 +16,7 @@ int (*get_function(char c))(va_list)
 	};
 	while (combo[i].type)
 	{
-		if (combo[i].type == c)
+		if (combo[i].type[0] == c)
 			return (combo[i].print);
 		i++;
 	}
