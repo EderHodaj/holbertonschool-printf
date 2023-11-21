@@ -8,8 +8,7 @@
 int (*get_function(char c))(va_list)
 {
 	int i = 0;
-	print_data combo[] =
-	{
+	print_data combo[] = {
 		{"c", print_char},
 		{"s", print_string},
 		{NULL, NULL}
