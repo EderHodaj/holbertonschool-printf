@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * _printf -entry point,prints input
+ * @format: -point to respective input
+ * Return: (count)
+ */
+
 
 int _printf(const char *format, ...)
 {
