@@ -26,11 +26,26 @@ int print_string(va_list string_list)
 {
 	char *str;
 	int i;
+	char *zero = "(null)";
+	int length = 0;
 
-	str = va_arg(string_list, char*);
-
-	for (i = 0; str[i] != '\0'; i++)
-	_putchar(str[i]);
-
-	return (i);
+	if (str)
+	{
+		while (str[i] != '\0')
+		{
+			_putchar(str[i]);
+			length++;
+			i++;
+		}
+	}
+	else
+	{
+		while (zero[i] != '\0')
+		{
+			_putchar(zero[i]);
+			length++;
+			i++;
+		}
+	}
+	return (length);
 }
