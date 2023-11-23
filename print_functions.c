@@ -71,6 +71,6 @@ int print_int_rec(long int number, int count)
 int print_int(va_list int_list)
 {
 	long int number = (long int) va_arg(int_list, int);
-	
+
 	return (print_int_rec(number, 0));
 }
