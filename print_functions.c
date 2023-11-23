@@ -26,7 +26,7 @@ int print_string(va_list string_list)
 {
 	char *str = va_arg(string_list, char *);
 	int i = 0;
-	//char *zero = "(null)";
+
 	int length = 0;
 
 	if (str == NULL)
