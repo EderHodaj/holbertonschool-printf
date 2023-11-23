@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _printf -entry point,prints input
+ * _printf - prints input
  * @format: -point to respective input
  * Return: (count)
  */
