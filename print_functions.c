@@ -62,5 +62,6 @@ int print_string(va_list string_list)
 
 int print_int(va_list int_list)
 {
+	(void) int_list;
 	return (0);
 }
