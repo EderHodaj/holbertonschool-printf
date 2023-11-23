@@ -27,37 +27,15 @@ int print_string(va_list string_list)
 	char *str = va_arg(string_list, char *);
 	int i = 0;
 
-	int length = 0;
-
 	if (str == NULL)
 		str = "(null)";
 	
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
-		length++;
 		i++;
 	}
-/**
-	if (str)
-	{
-		while (str[i] != '\0')
-		{
-			_putchar(str[i]);
-			length++;
-			i++;
-		}
-	}
-	else
-	{
-		while (zero[i] != '\0')
-		{
-			_putchar(zero[i]);
-			length++;
-			i++;
-		}
-	}*/
-	return (length);
+	return (i);
 }
 
 int print_int(va_list int_list)
