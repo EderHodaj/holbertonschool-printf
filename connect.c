@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * get_function - sdfsdf
- * @c:sdgsg
- * @va_listvsds
- * Return:sdfsdf
+ * get_function - function that bridges _printf to custom function
+ * @c: -holds value of input
+ * @va_list: -points to respective arguments
+ * Return: (combo[i].print)
  */
+
 int (*get_function(char c))(va_list)
 {
 	int i = 0;
