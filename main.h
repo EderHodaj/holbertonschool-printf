@@ -17,5 +17,7 @@ int _printf(const char *format, ...);
 int print_char(va_list char_list);
 int print_string(va_list string_list);
 int (*get_function(char c))(va_list);
+int print_int_rec(long int number, int count);
+int print_int(va_list int_list);
 
 #endif

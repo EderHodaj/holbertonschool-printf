@@ -11,6 +11,8 @@ int (*get_function(char c))(va_list)
 	print_data combo[] = {
 		{"c", print_char},
 		{"s", print_string},
+		{"d", print_int},
+		{"i", print_int},
 		{NULL, NULL}
 	};
 	while (combo[i].type)
