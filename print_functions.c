@@ -39,7 +39,7 @@ int print_string(va_list string_list)
 }
 
 /**
- * @print_int - prints integer
+ * print_int - prints integer
  * @int_list - points to the respective variadic arguments
  * Return: (0)
  */
