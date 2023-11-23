@@ -59,3 +59,8 @@ int print_string(va_list string_list)
 	}*/
 	return (length);
 }
+
+int print_int(va_list int_list)
+{
+	return (0);
+}
