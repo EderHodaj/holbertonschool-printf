@@ -38,6 +38,11 @@ int print_string(va_list string_list)
 	return (length);
 }
 
+/**
+ * @print_int - prints integer
+ * @int_list - points to the respective variadic arguments
+ * Return: (0)
+ */
 int print_int(va_list int_list)
 {
 	(void) int_list;
