@@ -39,16 +39,6 @@ int print_string(va_list string_list)
 }
 
 /**
- * print_int - prints integer
- * @int_list: - points to the respective variadic arguments
- * Return: (0)
- */
-int print_int(va_list int_list)
-{
-	(void) int_list;
-	return (0);
-}
-/**
  * print_int_rec - prints an int from va_list
  * @number: -holds value of number to be printed
  * @count: -holds value of the nr of digits
