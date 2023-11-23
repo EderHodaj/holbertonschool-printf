@@ -2,7 +2,7 @@
 #include<stdarg.h>
 
 /**
- * print_char -entry point,prints char
+ * print_char -prints char
  * @char_list: -points to respective variable
  * Return: (1)
  */
@@ -64,7 +64,7 @@ int print_int_rec(long int number, int count)
 	return (count + 1);
 }
 /**
- * print_int - entry point,prints corresponding int
+ * print_int - prints corresponding int
  * @int_list: -points to the list of variadic args
  * Return: (print_int_recursion(number, 0))
  */
