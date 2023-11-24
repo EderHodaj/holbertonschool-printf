@@ -56,4 +56,7 @@ hello world
 
 ```
 
-## This program was created by Eder Hodaj & Enea Milo 
+## This program was created by Eder Hodaj & Enea Milo
+
+- [@EderHodaj](https://www.github.com/EderHodaj)
+- [@eneamilo91](https://www.github.com/eneamilo91) 
