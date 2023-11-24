@@ -2,7 +2,6 @@
 /**
  * get_function - function that bridges _printf to custom function
  * @c: -holds value of input
- * @va_list: -points to respective arguments
  * Return: (combo[i].print)
  */
 
